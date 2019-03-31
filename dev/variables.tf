@@ -39,7 +39,7 @@ variable "instance_type" {
   type = "map"
 
   default = {
-    kafka          = "t2.micro"
+    kafka          = "t2.medium"
     zookeeper      = "t2.micro"
   }
 }
