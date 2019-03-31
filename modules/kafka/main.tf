@@ -39,7 +39,7 @@ resource "template_file" "kafka_a01_userdata" {
 
 resource "aws_instance" "kafka_a01" {
   ami = "${var.ami}"
-  associate_public_ip_address = false
+  associate_public_ip_address = true
   instance_type = "${var.instance_type}"
   key_name = "${var.key_name}"
   subnet_id = "${var.subnet_ids["ap-southeast-2a"]}"

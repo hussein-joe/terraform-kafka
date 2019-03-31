@@ -33,6 +33,7 @@ module "kafka" {
 
 
 
+/*
 resource "aws_route53_record" "kafka_a01" {
   name = "kafka-a01.${var.project_name}.dev"
   records = ["${module.kafka.kafka_a01_ip}"]
@@ -40,3 +41,4 @@ resource "aws_route53_record" "kafka_a01" {
   type = "A"
   zone_id = "${var.dns_zoneid}"
 }
+*/

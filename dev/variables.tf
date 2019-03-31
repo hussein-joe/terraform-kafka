@@ -23,7 +23,7 @@ variable "vpc_cidr" {
 }
 
 variable "dns_zoneid" {
-  default = "Z2O73FYENC8AWT"
+  default = "ZKDVG15JKVVNZ"
 }
 
 
